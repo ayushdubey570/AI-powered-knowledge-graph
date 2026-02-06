@@ -52,7 +52,7 @@ AI-POWERED-KNOWLEDGE-GRAPH/
 ```bash
 # Clone the repository
 git clone https://github.com/ayushdubey570/AI-powered-knowledge-graph.git
-cd AI-POWERED-KNOWLEDGE-GRAPH
+cd AI-powered-knowledge-graph
 
 # Create Virtual Environment
 python -m venv venv
