@@ -100,6 +100,13 @@ st.markdown("""
 
 # --- 3. LOAD SECRETS ---
 load_dotenv()
+
+#Manage API keys for streamlit deployment
+def get_secret(key):
+    if key in st.secrets:
+        return st.secrets[key]
+    return os.getenv(key)
+
 NEO4J_URI = os.getenv("NEO4J_URI")
 NEO4J_USER = os.getenv("NEO4J_USER")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
