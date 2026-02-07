@@ -7,6 +7,28 @@
 
 An end-to-end Enterprise Intelligence system that converts unstructured support ticket data into a structured Knowledge Graph. It utilizes **Graph RAG (Retrieval Augmented Generation)** to allow managers to "chat with their data," identifying trends, root causes, and product failures with high accuracy.
 
+---
+
+## 🔗 Live Demo
+**Access the deployed dashboard here:** [https://ai-powered-knowledge-graph.streamlit.app/](https://ai-powered-knowledge-graph.streamlit.app/)
+
+---
+
+## 📸 Project Screenshots
+
+### 1. Enterprise Intelligence Dashboard
+*View real-time statistics and chat with your Knowledge Graph data.*
+<img width="1366" height="643" alt="image" src="https://github.com/user-attachments/assets/6cd0bfa9-f694-4634-812b-7c4c32ef96fb" />
+<img width="1366" height="683" alt="image" src="https://github.com/user-attachments/assets/a7b2456e-5c8d-440e-b91c-8cb3454019b3" />
+
+
+### 2. Knowledge Graph Visualization (Neo4j)
+*The underlying relationship structure of Customers, Tickets, and Products.*
+<img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/56637fb5-ae89-4347-9a4c-900b351190e7" />
+<img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/e9284080-8d91-423e-bdd0-cc64710c507c" />
+<img width="1365" height="656" alt="image" src="https://github.com/user-attachments/assets/81ca5a8b-c624-4a0a-ba0a-e284fca78d6c" />
+
+---
 ## 🚀 Project Architecture
 
 The system is built in 5 modular stages:
