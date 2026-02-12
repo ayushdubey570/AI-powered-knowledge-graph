@@ -159,11 +159,11 @@ python -m streamlit run src/module5_dashboard/app.py
 
 For detailed information on how each specific part works, please refer to the individual module documentation:
 
-* **[Module 1: Ingestion & Normalization](src/module1_ingestion/README.md)**
-* **[Module 2: Entity Extraction](src/module2_extraction/README.md)**
-* **[Module 3: Graph Construction](src/module3_graph_construction/README.md)**
-* **[Module 4: RAG & Vector Search](src/module4_rag/README.md)**
-* **[Module 5: Intelligence Dashboard](src/module5_dashboard/README.md)**
+* **[Module 1: Ingestion & Normalization](src/module1_ingestion)**
+* **[Module 2: Entity Extraction](src/module2_extraction)**
+* **[Module 3: Graph Construction](src/module3_graph_construction)**
+* **[Module 4: RAG & Vector Search](src/module4_rag)**
+* **[Module 5: Intelligence Dashboard](src/module5_dashboard)**
 
 ---
 
