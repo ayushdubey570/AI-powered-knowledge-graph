@@ -152,7 +152,7 @@ def load_rag_chain():
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm, 
         chain_type="stuff", 
-        retriever=vector_store.as_retriever(search_kwargs={"k": 100})
+        retriever=vector_store.as_retriever(search_kwargs={"k": 4})
     )
     return qa_chain
 
